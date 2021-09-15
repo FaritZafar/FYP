@@ -1,0 +1,54 @@
+{
+  "name": "feminine360",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-picker/picker": "^2.1.0",
+    "lottie-react-native": "^4.0.3",
+    "react": "17.0.2",
+    "react-native": "0.65.1",
+    "react-native-calendars": "^1.1266.0",
+    "react-native-countdown-circle-timer": "^2.5.4",
+    "react-native-countdown-component": "^2.7.1",
+    "react-native-dropdown-picker": "^5.1.25",
+    "react-native-dynamic-search-bar": "^2.0.1",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-elements": "^3.4.2",
+    "react-native-geolocation-service": "^5.3.0-beta.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-get-location": "^2.1.2",
+    "react-native-image-slider": "^2.0.3",
+    "react-native-image-slider-box": "^1.1.7",
+    "react-native-maps": "0.29.3",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-modal-dropdown": "^1.0.1",
+    "react-native-modal-picker": "^0.0.16",
+    "react-native-node": "^3.3.1",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-sound": "^0.11.1",
+    "react-native-unimodules": "^0.14.8",
+    "react-navigation": "^3.11.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "react-native-codegen": "^0.0.7",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
